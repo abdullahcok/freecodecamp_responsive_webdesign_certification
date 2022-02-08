@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    font-size: 18px;
+    max-width: 80vw;
+    padding: 50px 200px;
+}
+
+header, #headline{
+    text-align: center;
+}
+
+.center{
+    align-items: center;
+}
+
+#title{
+    text-align: center;
+}
+
+#image{
+    width: 100%;
+}
+
+
+@media only screen and (min-width:1366px)
+  {
+ .font {
+    padding: 0px 50px 15px 50px;
+        }
+  }

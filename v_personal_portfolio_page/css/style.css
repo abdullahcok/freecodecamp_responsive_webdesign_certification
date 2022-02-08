@@ -1,0 +1,176 @@
+body{
+     font-family: 'Roboto Mono', monospace;
+     background: #1a1a1a;
+}
+
+.container{
+    min-width: 100%;
+    min-height: 100%;
+    padding: 3.6vh 0.1vh;
+    align-items: center;
+}
+
+
+.bg-black {
+  background: #000;
+  color: #fff; }
+
+a{
+  text-decoration: none;
+  color: #111;
+}
+a:hover{
+
+}
+
+#main-header{
+}
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+  padding:4vh;}
+
+#main-header .port-item {
+  width: 30%; }
+  #main-header .port-item .fa {
+    font-size: 2em; }
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important; } }
+
+
+
+
+
+
+    .yellow{
+      color: #ffff5b;
+    }
+    .yellow-bg{
+      background-color: #ffff5b;
+    }
+
+    .lgray{
+      color: #4f4f4f;
+    }
+    .dgray-bg{
+      background-color: #1a1a1a;
+    }
+    .gray{
+      color: #1c1c1c;
+    }
+
+    .gray-bg{
+      background-color: #1c1c1c;
+    }
+
+    .darkie-bg{
+      background-color: #1f1f1f;
+    }
+
+
+
+    .lblue{
+      color: #00B2EF;
+    }
+    .lblue-bg{
+      background-color: #7297cc;
+    }
+
+
+    .blue{
+      color: #2A3ECA;
+    }
+    .blue-bg{
+      background-color: #112255;
+    }
+
+    .plue{
+      color: #440099;
+    }
+
+    .plue-bg{
+      background-color: #440099;
+    }
+
+
+    .purple{
+      color: #661166;
+    }
+
+    .purple-bg{
+      background-color: #661166;
+    }
+
+    .brown{
+      color: #cc7a00;
+    }
+
+    .brown-bg{
+      background-color: #cc7a00;
+    }
+
+    .red{
+    color: #E52E38;
+    }
+
+    .redd{
+    color: #C51F54;
+    }
+
+    .infred{
+    color: #C5151C;
+    }
+
+    .goodie{
+      color: #EEEEDA;
+    }
+
+    .yelloow{
+    color: #F5C518;
+    }
+
+
+    /***************** menu items **************/
+.item-container{
+    position: relative;
+    /** for links **/
+    overflow: hidden;
+    background:linear-gradient(rgba(200,200,200,0.1), rgba(200,200,200,0.1)),
+                           url(/img/header-bg.jpg);
+    transition: all 2s ease;
+}
+
+.item-img{
+   transition: all 2s ease;
+}
+
+.item-container: hover .item-img{
+    transform: scale(1);
+    opacity: 0;
+}
+
+.item-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #111;
+    background: #989898;
+    border: 2px solid #989898;
+    transition: all 2s ease;
+    opacity: 0;
+}
+
+
+.item-container:hover .item-link {
+  opacity: 0.5;
+
+}

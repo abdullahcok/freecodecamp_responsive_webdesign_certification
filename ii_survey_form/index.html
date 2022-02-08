@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Tell me your choice!</h1>
+    <p id="description">We all love spor and something like that.</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Which sport do you love most?</strong></label><br>
+            <select id="dropdown" name="skill" class="form">
+                <option value="Football">Football</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Volleyball">Volleyball</option>
+                <option value="Handball">Handball</option>
+                <option value="Formula 1">Formula 1</option>
+                <option value="Bicycle">Bicycle</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Box">Box</option>
+                <option value="Chess">Chess</option>
+                <option value="Athletics">Athletics</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="ed-label"><b>Education Status:</b></label><br>
+            <input type="radio" class="radio-inline" name="education" value="highschool" checked>Highschool and lower<br>
+            <input type="radio" class="radio-inline" name="education" value="undergraduate">Undergraduate<br>
+            <input type="radio" class="radio-inline" name="education" value="graduate"> Graduate<br>
+            <input type="radio" class="radio-inline" name="education" value="master">Master and higher
+          </div>
+          <div id="button-area"><br>
+            <label id="skill-label"><b>Which one are you good at? </b></label><br>
+            <input type="checkbox" name="t1" value="hands" checked> Hands<br>
+            <input type="checkbox" name="t2" value="fet"> Feet<br>
+            <input type="checkbox" name="t3" value="body"> Body<br>
+            <input type="checkbox" name="t4" value="mind"> Mind<br>
+          </div>
+
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Which you wanna be expert: </strong></label><br>
+            <input type="checkbox" name="t1" value="hands" checked> Hands<br>
+            <input type="checkbox" name="t2" value="fet"> Feet<br>
+            <input type="checkbox" name="t3" value="body"> Body<br>
+            <input type="checkbox" name="t4" value="mind"> Mind<br>
+         </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>
