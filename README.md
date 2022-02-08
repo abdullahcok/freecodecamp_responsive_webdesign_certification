@@ -1,0 +1,2 @@
+# freecodecamp_responsive_webdesign_certification
+all projects added for responsive webdesign certification in freecodecamp
